@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    <style>
+        #derecha{
+            background-color: blue;
+            height:340px;
+        }
+
+        #warning{
+            color:red;
+            background-color: pink;
+        }
+
+        @media (max-width:770px){
+            #tomate{
+                display:none;
+            }
+        }
+
+        #huerta{
+            background-color: cornflowerblue;
+            text-align: left;
+            height:340px;
+        }
+    
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="container text-center">
+        <div class="row align-items-center" >
+            <div class="col-se-12 col-md-6" id="huerta">
+                <h1>Hablemos de Ingredientes</h1>
+            
+            <div class="row">
+                <div class="col" id="lista1">
+            <ul class="list-group">
+                <li class="list-group-item " >Patatas</li>
+                <li class="list-group-item">Calabazas</li>
+                <li class="list-group-item" id="tomate">Tomates</li>
+                <li class="list-group-item">Cebollas</li>
+                <li class="list-group-item disabled" aria-disabled="true">Judías</li>
+                
+              </ul>
+            </div>
+              <div class="col" id="lista2">
+              <ul class="list-group" >
+                <li class="list-group-item">Harina</li>
+                <li class="list-group-item">Azúcar</li>
+                <li class="list-group-item">Leche</li>
+                <li class="list-group-item" id="warning">Café</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+           
+            <div class="col-se-12 col-md-6" id="derecha"><h1>Hablemos de otra cosa</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure maiores perspiciatis amet rem doloribus inventore veritatis totam repellat officia enim suscipit accusamus quae voluptate non reiciendis, quo facilis! Pariatur esse modi quae tempora ut laudantium, quos dolores mollitia a sequi illum. Atque nostrum fuga minus possimus sit veniam nisi!</p>>
+        </div>
+    
+    </div>
+    </div>
+    
+</body>
+</html>
